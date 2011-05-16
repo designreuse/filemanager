@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
 <jardesc>
-    <jar path="filemanager.jar"/>
-    <options buildIfNeeded="true" compress="true" descriptionLocation="/fileManagerConnectorTagLibrary/createJAR.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <jar path="editorExample/WebContent/WEB-INF/lib/filemanager.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/editorExample/WebContent/WEB-INF/lib/filemanager.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>
     <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
@@ -11,7 +11,12 @@
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
-        <javaElement handleIdentifier="=fileManagerConnectorTagLibrary/src"/>
-        <folder path="/fileManagerConnectorTagLibrary/META-INF"/>
+        <file path="/filemanager/.classpath"/>
+        <file path="/filemanager/createJAR.jardesc"/>
+        <folder path="/filemanager/META-INF"/>
+        <file path="/filemanager/.project"/>
+        <javaElement handleIdentifier="=filemanager/src"/>
+        <file path="/filemanager/.gitignore"/>
+        <file path="/filemanager/README"/>
     </selectedElements>
 </jardesc>
